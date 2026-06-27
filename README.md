@@ -44,6 +44,14 @@ customer-churn/
 - Class imbalance (73/27) was handled using `scale_pos_weight` in XGBoost and `class_weight='balanced'` in Logistic Regression
 - Logistic Regression matches tuned XGBoost on recall (0.79) — a strong linear baseline for this dataset
 
+## Visualizations
+
+### Feature Importance (XGBoost Tuned)
+![Feature Importance](assets/feature_importance.png)
+
+### Confusion Matrix (XGBoost Tuned)
+![Confusion Matrix](assets/confusion_matrix.png)
+
 ## How to Run
 ```bash
 pip install -r requirements.txt
